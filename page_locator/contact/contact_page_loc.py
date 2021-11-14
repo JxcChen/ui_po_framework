@@ -1,0 +1,18 @@
+from selenium.webdriver.common.by import By
+
+msgBtn = (By.XPATH, "//*[@text='信息']")
+contactBtn = (By.XPATH,"//*[@text='通讯录']")
+addMemberBtn = (By.XPATH, "//*[@text='添加成员']")
+addManuallyBtn = (By.XPATH, "//*[@text='手动输入添加']")
+backButton = (By.ID, "iwk")
+searchBtn = (By.ID, "ixj")
+searchInput = (By.XPATH, "//*[@text='搜索']")
+searchResultList = (By.ID, "e4x")
+nameLocator = (By.ID, "ic4")
+departLocator = (By.ID, "bq_")
+editMemberBtn = (By.XPATH, "//*[@text='编辑成员']")
+deleteMemberBtn = (By.XPATH, "//*[@text='删除成员']")
+confirmBtn = (By.XPATH, "//*[@text='确定']")
+searchResultContent = (By.ID, "hin")
+bottomSelector = (By.ID, "f0d")
+otherBtn = (By.ID, "ix5")

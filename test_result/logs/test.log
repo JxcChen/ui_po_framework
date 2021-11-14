@@ -1,0 +1,68 @@
+2021-11-14 13:31:21,411-[base_page.py-->line:53]- ERROR: 未能找到元素('xpath', "//*[@text='通讯录']")
+Traceback (most recent call last):
+  File "/Users/chnjx/PycharmProjects/ui_po_framework/page/base_page.py", line 42, in get_element
+    self.current_element = self.driver.find_element(*loc)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/appium/webdriver/webdriver.py", line 405, in find_element
+    return self.execute(RemoteCommand.FIND_ELEMENT, {'using': by, 'value': value})['value']
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 418, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/appium/webdriver/errorhandler.py", line 31, in check_response
+    raise wde
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/appium/webdriver/errorhandler.py", line 26, in check_response
+    super().check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/selenium/webdriver/remote/errorhandler.py", line 243, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-android-driver/lib/commands/find.js:75:11)
+    at processTicksAndRejections (internal/process/task_queues.js:85:5)
+2021-11-14 13:36:09,873-[base_page.py-->line:56]- INFO: 获取元素('xpath', "//*[@text='通讯录']")成功
+2021-11-14 13:36:23,377-[base_page.py-->line:52]- ERROR: 未能找到输入名称元素('id', 'ber')
+Traceback (most recent call last):
+  File "/Users/chnjx/PycharmProjects/ui_po_framework/page/base_page.py", line 41, in get_element
+    self.current_element = self.driver.find_element(*loc)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/appium/webdriver/webdriver.py", line 405, in find_element
+    return self.execute(RemoteCommand.FIND_ELEMENT, {'using': by, 'value': value})['value']
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 418, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/appium/webdriver/errorhandler.py", line 31, in check_response
+    raise wde
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/appium/webdriver/errorhandler.py", line 26, in check_response
+    super().check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/selenium/webdriver/remote/errorhandler.py", line 243, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-android-driver/lib/commands/find.js:75:11)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:85:5)
+2021-11-14 13:36:25,001-[base_page.py-->line:32]- INFO: 输入名称截图成功
+2021-11-14 13:38:22,357-[base_page.py-->line:56]- INFO: 获取元素('xpath', "//*[@text='通讯录']")成功
+2021-11-14 13:39:25,610-[base_page.py-->line:56]- INFO: 获取输入名称元素('id', 'ber')成功
+2021-11-14 13:39:26,290-[base_page.py-->line:56]- INFO: 获取输入手机号元素('id', 'gcr')成功
+2021-11-14 13:39:27,291-[base_page.py-->line:56]- INFO: 获取点击保存按钮元素('id', 'alp')成功
+2021-11-14 13:39:37,210-[base_page.py-->line:56]- INFO: 获取点击搜索按钮元素('id', 'ixj')成功
+2021-11-14 13:39:38,235-[base_page.py-->line:56]- INFO: 获取搜索框中输入成员名称元素('xpath', "//*[@text='搜索']")成功
+2021-11-14 13:39:39,990-[base_page.py-->line:56]- INFO: 获取点击搜索后的结果进入成员详情页元素('id', 'e4x')成功
+2021-11-14 13:39:42,114-[base_page.py-->line:56]- INFO: 获取获取成员详情的名称文本元素('id', 'ic4')成功
+2021-11-14 13:39:42,157-[base_page.py-->line:56]- INFO: 获取获取成员详情的部门文本元素('id', 'bq_')成功
+2021-11-14 13:46:39,911-[base_page.py-->line:56]- INFO: 获取元素('xpath', "//*[@text='通讯录']")成功
+2021-11-14 13:47:20,084-[base_page.py-->line:56]- INFO: 获取点击手动添加元素('xpath', "//*[@text='手动输入添加']")成功
+2021-11-14 13:47:21,523-[base_page.py-->line:56]- INFO: 获取输入名称元素('id', 'ber')成功
+2021-11-14 13:47:22,222-[base_page.py-->line:56]- INFO: 获取输入手机号元素('id', 'gcr')成功
+2021-11-14 13:47:23,222-[base_page.py-->line:56]- INFO: 获取点击保存按钮元素('id', 'alp')成功
+2021-11-14 13:47:25,271-[base_page.py-->line:56]- INFO: 获取点击返回按钮元素('id', 'iwk')成功
+2021-11-14 13:47:27,102-[base_page.py-->line:56]- INFO: 获取点击搜索按钮元素('id', 'ixj')成功
+2021-11-14 13:47:28,113-[base_page.py-->line:56]- INFO: 获取搜索框中输入成员名称元素('xpath', "//*[@text='搜索']")成功
+2021-11-14 13:47:30,525-[base_page.py-->line:56]- INFO: 获取点击搜索后的结果进入成员详情页元素('id', 'e4x')成功
+2021-11-14 13:47:32,329-[base_page.py-->line:56]- INFO: 获取获取成员详情的名称文本元素('id', 'ic4')成功
+2021-11-14 13:47:32,419-[base_page.py-->line:56]- INFO: 获取获取成员详情的部门文本元素('id', 'bq_')成功
+2021-11-14 13:47:32,428-[test_contact.py-->line:14]- ERROR: 正常添加成员失败
+Traceback (most recent call last):
+  File "/Users/chnjx/PycharmProjects/ui_po_framework/testcase/test_contact.py", line 10, in TestAddMember
+    assert member.name == "python测试2"
+AssertionError: assert 'python测试' == 'python测试2'
+ +  where 'python测试' = <entity.member.member object at 0x102cc62c0>.name
+2021-11-14 13:47:32,958-[base_page.py-->line:32]- INFO: 添加成员失败截图成功
