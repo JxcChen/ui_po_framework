@@ -3,6 +3,9 @@ from selenium.webdriver.common.by import By
 
 
 class ExceptionHandle:
+    """
+    异常弹窗处理
+    """
     retry_time = 0
     max_time = 3
 
@@ -52,10 +55,10 @@ class out_desktop_handle(ExceptionHandle):
     """
 
     def is_hit(self, page_source):
-        # todo: 判断页面内容 是否弹出桌面
+        # 判断页面内容 是否弹出桌面
         if "" in page_source:
             pass
 
     def handle(self, driver: Remote):
-        # todo: 弹出桌面则回到app中
+        # 弹出桌面则回到app中
         driver.start_activity(app_package="", app_activity="")

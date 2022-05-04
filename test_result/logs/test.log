@@ -66,3 +66,103 @@ Traceback (most recent call last):
 AssertionError: assert 'python测试' == 'python测试2'
  +  where 'python测试' = <entity.member.member object at 0x102cc62c0>.name
 2021-11-14 13:47:32,958-[base_page.py-->line:32]- INFO: 添加成员失败截图成功
+2021-11-14 20:03:46,962-[base_page.py-->line:56]- INFO: 获取元素('xpath', "//*[@text='通讯录']")成功
+2021-11-14 20:04:27,267-[base_page.py-->line:56]- INFO: 获取点击手动添加元素('xpath', "//*[@text='手动输入添加']")成功
+2021-11-14 20:04:28,970-[base_page.py-->line:56]- INFO: 获取输入名称元素('id', 'ber')成功
+2021-11-14 20:04:29,637-[base_page.py-->line:56]- INFO: 获取输入手机号元素('id', 'gcr')成功
+2021-11-14 20:04:30,632-[base_page.py-->line:56]- INFO: 获取点击保存按钮元素('id', 'alp')成功
+2021-11-14 20:04:41,387-[base_page.py-->line:52]- ERROR: 未能找到点击返回按钮元素('id', 'iwk')
+Traceback (most recent call last):
+  File "/Users/chnjx/PycharmProjects/ui_po_framework/page/base_page.py", line 41, in get_element
+    self.current_element = self.driver.find_element(*loc)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/appium/webdriver/webdriver.py", line 405, in find_element
+    return self.execute(RemoteCommand.FIND_ELEMENT, {'using': by, 'value': value})['value']
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 418, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/appium/webdriver/errorhandler.py", line 31, in check_response
+    raise wde
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/appium/webdriver/errorhandler.py", line 26, in check_response
+    super().check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/selenium/webdriver/remote/errorhandler.py", line 243, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-android-driver/lib/commands/find.js:75:11)
+    at processTicksAndRejections (internal/process/task_queues.js:85:5)
+2021-11-14 20:04:41,848-[base_page.py-->line:32]- INFO: 点击返回按钮截图成功
+2021-11-14 20:14:13,622-[base_page.py-->line:56]- INFO: 获取元素('xpath', "//*[@text='通讯录']")成功
+2021-11-14 20:15:05,539-[base_page.py-->line:56]- INFO: 获取点击手动添加元素('xpath', "//*[@text='手动输入添加']")成功
+2021-11-14 20:15:06,859-[base_page.py-->line:56]- INFO: 获取输入名称元素('id', 'ber')成功
+2021-11-14 20:15:07,558-[base_page.py-->line:56]- INFO: 获取输入手机号元素('id', 'gcr')成功
+2021-11-14 20:15:08,561-[base_page.py-->line:56]- INFO: 获取点击保存按钮元素('id', 'alp')成功
+2021-11-14 20:15:19,374-[base_page.py-->line:52]- ERROR: 未能找到点击返回按钮元素('id', 'iwk')
+Traceback (most recent call last):
+  File "/Users/chnjx/PycharmProjects/ui_po_framework/page/base_page.py", line 41, in get_element
+    self.current_element = self.driver.find_element(*loc)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/appium/webdriver/webdriver.py", line 405, in find_element
+    return self.execute(RemoteCommand.FIND_ELEMENT, {'using': by, 'value': value})['value']
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 418, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/appium/webdriver/errorhandler.py", line 31, in check_response
+    raise wde
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/appium/webdriver/errorhandler.py", line 26, in check_response
+    super().check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/selenium/webdriver/remote/errorhandler.py", line 243, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-android-driver/lib/commands/find.js:75:11)
+    at processTicksAndRejections (internal/process/task_queues.js:85:5)
+2021-11-14 20:15:19,820-[base_page.py-->line:32]- INFO: 点击返回按钮截图成功
+2021-11-14 20:17:25,393-[base_page.py-->line:56]- INFO: 获取元素('xpath', "//*[@text='通讯录']")成功
+2021-11-14 20:18:17,638-[base_page.py-->line:56]- INFO: 获取点击手动添加元素('xpath', "//*[@text='手动输入添加']")成功
+2021-11-14 20:18:18,942-[base_page.py-->line:56]- INFO: 获取输入名称元素('id', 'ber')成功
+2021-11-14 20:18:19,625-[base_page.py-->line:56]- INFO: 获取输入手机号元素('id', 'gcr')成功
+2021-11-14 20:18:20,626-[base_page.py-->line:56]- INFO: 获取点击保存按钮元素('id', 'alp')成功
+2021-11-14 20:18:31,513-[base_page.py-->line:52]- ERROR: 未能找到点击返回按钮元素('id', 'iwk')
+Traceback (most recent call last):
+  File "/Users/chnjx/PycharmProjects/ui_po_framework/page/base_page.py", line 41, in get_element
+    self.current_element = self.driver.find_element(*loc)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/appium/webdriver/webdriver.py", line 405, in find_element
+    return self.execute(RemoteCommand.FIND_ELEMENT, {'using': by, 'value': value})['value']
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 418, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/appium/webdriver/errorhandler.py", line 31, in check_response
+    raise wde
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/appium/webdriver/errorhandler.py", line 26, in check_response
+    super().check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/selenium/webdriver/remote/errorhandler.py", line 243, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-android-driver/lib/commands/find.js:75:11)
+    at processTicksAndRejections (internal/process/task_queues.js:85:5)
+2021-11-14 20:18:32,000-[base_page.py-->line:32]- INFO: 点击返回按钮截图成功
+2021-11-14 20:24:31,579-[base_page.py-->line:56]- INFO: 获取元素('xpath', "//*[@text='通讯录']")成功
+2021-11-14 20:25:24,180-[base_page.py-->line:56]- INFO: 获取点击手动添加元素('xpath', "//*[@text='手动输入添加']")成功
+2021-11-14 20:25:25,542-[base_page.py-->line:56]- INFO: 获取输入名称元素('id', 'ber')成功
+2021-11-14 20:25:26,202-[base_page.py-->line:56]- INFO: 获取输入手机号元素('id', 'gcr')成功
+2021-11-14 20:25:27,394-[base_page.py-->line:56]- INFO: 获取点击保存按钮元素('id', 'alp')成功
+2021-11-14 20:25:37,559-[base_page.py-->line:52]- ERROR: 未能找到点击返回按钮元素('id', 'iwk')
+Traceback (most recent call last):
+  File "/Users/chnjx/PycharmProjects/ui_po_framework/page/base_page.py", line 41, in get_element
+    self.current_element = self.driver.find_element(*loc)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/appium/webdriver/webdriver.py", line 405, in find_element
+    return self.execute(RemoteCommand.FIND_ELEMENT, {'using': by, 'value': value})['value']
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 418, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/appium/webdriver/errorhandler.py", line 31, in check_response
+    raise wde
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/appium/webdriver/errorhandler.py", line 26, in check_response
+    super().check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/selenium/webdriver/remote/errorhandler.py", line 243, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-android-driver/lib/commands/find.js:75:11)
+    at processTicksAndRejections (internal/process/task_queues.js:85:5)
+2021-11-14 20:25:38,005-[base_page.py-->line:32]- INFO: 点击返回按钮截图成功
